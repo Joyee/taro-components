@@ -1,0 +1,11 @@
+{
+  "extends": ["taro"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "no-undef": 0,
+    "no-unused-vars": ["off", { "varsIgnorePattern": "Taro|Config|Chain" }],
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0
+  },
+  "parser": "typescript-eslint-parser"
+}
